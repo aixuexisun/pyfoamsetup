@@ -1,0 +1,15 @@
+    extractionMethod    extractFromSurface;
+
+    extractFromSurfaceCoeffs
+    {
+        includedAngle   150;
+		geometricTestOnly no;
+    }
+
+    subsetFeatures
+    {
+        nonManifoldEdges yes;
+        openEdges        yes;
+    }
+
+    writeObj             no;

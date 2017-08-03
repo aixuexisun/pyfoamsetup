@@ -14,7 +14,7 @@ There is a general library that act as python interface to many of the settings 
 - My Mesh library [https://github.com/jarlekramer/polymesh]
 - OpenFOAM. In theory it should work with both normal OpenFOAM and OpenFOAM+, but OpenFOAM+ is the version I am using, and therefore the only verison that is propely tested. The version of OpenFOAM+ that I currently use is 1612+. Compatebility with older versions will not be prioritised.  
 
-## Install instriuctions
+## Install instructions
 Download, cd into folder and execute python setup.py install
 
-In order to install extensions to OpenFoam that comes with this library execute the "installOpenFoamExtenstensions.py" script in the "scripts" folder. This requires that OpenFoam is allready installed, and that the environment is set up (FOAM_RUN environmental variable as creating the run folder)
+In order to install extensions to OpenFoam that comes with this library execute the "installOpenFoamExtenstensions.py" script in the "scripts" folder. This requires that OpenFoam is allready installed, and that the environment is set up (the FOAM_RUN environmental variable must be defined and the run folder must be created)

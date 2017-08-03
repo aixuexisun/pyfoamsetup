@@ -12,5 +12,4 @@ There is a general library that act as python interface to many of the settings 
 - Numpy
 - Scipy
 - My Mesh library [https://github.com/jarlekramer/polymesh]
-- My hydrostatics library (just for the TowingTank, and only one of the setup functions) [https://github.com/jarlekramer/Hydrostatics]
 - OpenFOAM. In theory it should work with both normal OpenFOAM and OpenFOAM+, but OpenFOAM+ is the version I am using, and therefore the only verison that is propely tested. The version of OpenFOAM+ that I currently use is 1612+. Compatebility with older versions will not be prioritised.  
